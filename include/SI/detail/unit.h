@@ -105,7 +105,6 @@ struct unit_t {
   /// returns the stored value as raw type
   constexpr _type value() const { return value_; }
 
-  ///@todo set as friend to the stream-function
   void setValue(_type v) { value_ = v; }
 
   /// Assignment for same ratio
