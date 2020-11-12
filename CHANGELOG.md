@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.1
+
+*   Clean up documentation 
+
 ## 2.0.0
 
 *   Support for fractions as exponents (Types from version 1.x.x are no longer supported)

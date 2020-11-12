@@ -140,4 +140,4 @@ For further information and deeper technical details refer to the [implementatio
 
 ## Breaking changes between versions 1.x.x and versions 2.x.x
 
-Versions above 2.0.0 will not be fully compatible with older versions because of the breaking changes mentioned in the [changelog](CHANGELOG.md).
+Versions above 2.0.1 will not be fully compatible with older versions because of the breaking changes mentioned in the [changelog](CHANGELOG.md).
