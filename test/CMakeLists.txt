@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.12)
+cmake_minimum_required(VERSION 3.14)
 
 find_program(CONAN conan)
 if(NOT CONAN)
@@ -33,7 +33,8 @@ endif()
 # module path
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_BINARY_DIR})
 find_package(Catch2 REQUIRED)
-
+# Catch2_LIB_DIRS is provided by Catch2 
+# Unfortunately the path is not set correctly in the cmake files provided by the conan package
 list(APPEND CMAKE_MODULE_PATH "${Catch2_LIB_DIRS}/cmake/Catch2")
 
 message(INFO ${CMAKE_MODULE_PATH})
